@@ -1,7 +1,5 @@
 # Infraestrutura-de-Rede-Integrada-para-a-Empresa-XPTO
 
-![image](https://github.com/user-attachments/assets/29ea5c83-39e8-40df-ae30-6c6478c18586)
-
 # 🏗️ Infraestrutura de Rede Integrada - Empresa XPTO
 
 Projeto prático de implementação de uma infraestrutura de TI, segura e escalável para a empresa fictícia XPTO. A proposta tem as seguintes tecnologias: Docker, VPN, balanceamento de carga, segmentação de rede, proxy reverso e monitoramento.
@@ -17,7 +15,7 @@ Projeto prático de implementação de uma infraestrutura de TI, segura e escal�
 
 ## 🖧 Diagrama da Arquitetura
 
-![Diagrama da Rede](./caminho/para/o/diagrama.png)
+![Infraestrutura](https://github.com/user-attachments/assets/29ea5c83-39e8-40df-ae30-6c6478c18586 =250x250)
 
 ## 🚀 Tecnologias Utilizadas
 
