@@ -15,6 +15,9 @@ Projeto prático de implementação de uma infraestrutura de TI, segura e escal�
 
 ## 🖧 Diagrama da Arquitetura
 
+![Infraestrutura](https://github.com/user-attachments/assets/deed673a-ce3e-4f1e-86db-84ae41f5b76a)
+
+
 ![Infraestrutura](https://github.com/user-attachments/assets/29ea5c83-39e8-40df-ae30-6c6478c18586)
 
 ## 🚀 Tecnologias Utilizadas
