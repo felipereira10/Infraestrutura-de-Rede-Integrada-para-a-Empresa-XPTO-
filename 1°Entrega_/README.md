@@ -4,7 +4,7 @@ Este projeto configura um ambiente com **3 containers NGINX** servindo páginas 
 
 ---
 
-## 🧱 1. Instalação do Docker
+## 🧱 1. Instalação do Docker:
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -26,13 +26,13 @@ sudo systemctl enable docker
 sudo systemctl start docker
 ```
 
-## 📁 2. Estrutura de Diretórios
+## 📁 2. Estrutura de Diretórios:
 ```bash
 mkdir ~/meu-site
 mkdir ~/nginx-lb
 ```
 
-## 🖥️ 3. Arquivos da Aplicação
+## 🖥️ 3. Arquivos da Aplicação:
 ~/meu-site/index.html
 ```bash
 <h1>Estamos no Container</h1>
@@ -65,7 +65,7 @@ http {
 }
 ```
 
-## ⚙️ 4. Arquivo docker-compose.yml
+## ⚙️ 4. Arquivo docker-compose.yml:
 Crie este arquivo na raiz do projeto (por exemplo, em ~/):
 
 ```bash
@@ -97,7 +97,7 @@ services:
       - web03
 ```
 
-## 🚀 5. Subir os containers com Docker Compose
+## 🚀 5. Subir os containers com Docker Compose:
 Limpar containers antigos (se houver):
 ```bash
 docker rm web01 web02 web03 loadbalancer
@@ -113,7 +113,7 @@ Verificar status:
 docker ps
 ```
 
-## 🖌️ 6. Personalizar mensagem de cada container (Opcional)
+## 🖌️ 6. Personalizar mensagem de cada container (Opcional):
 ```bash
 docker exec -it web01 sh
 cd /usr/share/nginx/html
@@ -122,7 +122,7 @@ exit
 ```
 Repita o processo para web02 e web03, mudando o número da mensagem.
 
-## 🌐 7. Acessar pelo Navegador
+## 🌐 7. Acessar pelo Navegador:
 Use o IP público da sua instância EC2:
 
 ```bash
@@ -137,6 +137,26 @@ Cada atualização na página alternará entre os containers, demonstrando o fun
 1 container NGINX atuando como Load Balancer
 
 Docker Compose gerenciando tudo automaticamente
+
+### Observação:
+Seguir passo a passo do 1 ao 7, conseguirá:
+
+- Instalar o Docker corretamente
+
+- Criar os diretórios e arquivos necessários
+
+- Construir a imagem dos containers web
+
+- Configurar o NGINX como Load Balancer
+
+- Criar e rodar tudo com Docker Compose
+
+- Visualizar os conteúdos balanceados
+
+- Personalizar cada container com mensagens diferentes
+
+*Importante:*
+O único cuidado é garantir que todos os comandos sejam executados no diretório correto, e que o docker-compose.yml esteja no mesmo nível das pastas meu-site/ e nginx-lb/.
 
 
 
