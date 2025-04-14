@@ -130,14 +130,14 @@ http://<seu_ip_publico>
 ```
 
 Cada atualização na página alternará entre os containers, demonstrando o funcionamento do balanceamento de carga.
-
+<br>
 ## ✅ Resultado Esperado
 3 containers NGINX servindo páginas HTML diferentes
 
 1 container NGINX atuando como Load Balancer
 
 Docker Compose gerenciando tudo automaticamente
-
+<br><br>
 ### Observação:
 Seguir passo a passo do 1 ao 7, conseguirá:
 
