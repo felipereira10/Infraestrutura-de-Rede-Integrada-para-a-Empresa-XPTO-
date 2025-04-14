@@ -1,4 +1,4 @@
-# 🚀 Load Balancer com Docker + NGINX + Docker Compose
+# Load Balancer com Docker + NGINX + Docker Compose
 
 Este projeto configura um ambiente com **3 containers NGINX** servindo páginas HTML simples, balanceados por um container **NGINX acting as Load Balancer**, utilizando **Docker Compose**.
 
