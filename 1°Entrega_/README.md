@@ -142,8 +142,8 @@ Cada atualização na página alternará entre os containers, demonstrando o fun
 cd /root
 docker compose up -d
 ```
-
-Seguir passo a passo do 1 ao 7, conseguirá:
+--
+#### Seguir passo a passo do 1 ao 7, conseguirá:
 
 - Instalar o Docker corretamente
 
