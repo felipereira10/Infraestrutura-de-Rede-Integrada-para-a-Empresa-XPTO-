@@ -101,7 +101,7 @@ Limpar containers antigos (se houver):
 docker rm web01 web02 web03 loadbalancer
 ```
 
-Subir ambiente:
+Subir ambiente (rodar):
 ```bash
 docker compose up -d --build
 ```
@@ -111,7 +111,7 @@ Verificar status:
 docker ps
 ```
 
-## 🖌️ 6. Personalizar mensagem de cada container (Opcional):
+## 🖌️ 6. Personalizar mensagem de cada container (opcional):
 ```bash
 docker exec -it web01 sh
 cd /usr/share/nginx/html
