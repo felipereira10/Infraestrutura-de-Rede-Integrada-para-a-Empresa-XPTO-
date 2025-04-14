@@ -17,8 +17,6 @@ Projeto prático de implementação de uma infraestrutura de TI, segura e escal�
 
 ![Infra](https://github.com/user-attachments/assets/cc1e7041-a17f-4335-a8df-70b9405e489a)
 
-![Infraestrutura](https://github.com/user-attachments/assets/29ea5c83-39e8-40df-ae30-6c6478c18586)
-
 ## 🚀 Tecnologias Utilizadas
 
 - 🔧 **Docker & Docker Compose**
