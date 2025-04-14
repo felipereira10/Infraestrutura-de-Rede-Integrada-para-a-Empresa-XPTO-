@@ -136,16 +136,12 @@ Cada atualização na página alternará entre os containers, demonstrando o fun
   
 <br><br>
 
----
-
 ### Observações:
 #### Para subir novamente em outros acessos (como Adm):
 ```bash
 cd /root
 docker compose up -d
 ```
-
---
 
 #### Seguir passo a passo do 1 ao 7, conseguirá:
 
