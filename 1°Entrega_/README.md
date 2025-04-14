@@ -130,11 +130,10 @@ Cada atualização na página alternará entre os containers, demonstrando o fun
 <br>
 ---
 ## ✅ Resultado Esperado
-3 containers NGINX servindo páginas HTML diferentes
-
-1 container NGINX atuando como Load Balancer
-
-Docker Compose gerenciando tudo automaticamente
+- 3 containers NGINX servindo páginas HTML diferentes
+- 1 container NGINX atuando como Load Balancer
+- Docker Compose gerenciando tudo automaticamente
+  
 <br><br>
 ---
 ### Observação:
