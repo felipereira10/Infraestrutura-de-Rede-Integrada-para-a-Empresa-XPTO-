@@ -125,8 +125,8 @@ Use o IP público da sua instância EC2:
 ```bash
 http://<seu_ip_publico>
 ```
-
 Cada atualização na página alternará entre os containers, demonstrando o funcionamento do balanceamento de carga.
+
 <br>
 ---
 ## ✅ Resultado Esperado
